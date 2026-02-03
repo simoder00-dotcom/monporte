@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0ffff;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+
+form {
+    background-color: #e0ffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="url"],
+input[type="color"],
+input[type="number"],
+select,
+textarea {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+input[type="file"],
+input[type="range"] {
+    width: 95%;
+    cursor: pointer;
+}
+
+
+textarea {
+    resize: none;
+}
+
+
+button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+a {
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,18 @@
+body{background-color: rgb(255, 255, 255);}
+button{
+height: 100px;
+width: 100px;
+border-radius: 25px;
+background-color: black;
+color: aliceblue;
+margin: 30px;
+border: 2px solid white;
+transition: 0.2s;
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border: 2px solid black;
+    transition: 150ms;
+    
+}

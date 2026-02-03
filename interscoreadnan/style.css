@@ -1,0 +1,12 @@
+/*
+--> <input type="number" id="age" placeholder="saisir votre age ">
+<button onclick="verifierage()">envoi</button>
+<p id="resultat"></p> -->
+
+
+
+
+<body><form action="#" onsubmit="return verifierformulaire()">
+<input type="text" id="nom" placeholder="votre nom">
+<input type="email"  id="email" placeholder="votre email">
+<button type="submit">envoie</button> -->

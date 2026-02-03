@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #251a77, #4e0808);
+    color:white;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.section {
+    margin: 40px;
+}
+
+.section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.359);
+    color: black;
+    padding: 20px;
+    border-radius: 16px;
+    text-decoration: none;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.171);
+    transition: 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(99, 13, 11, 0.536);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.card.mission {
+    border-left: 6px solid #c17a1e6c;
+}
